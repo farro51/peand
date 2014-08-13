@@ -1,0 +1,35 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" >
+
+    
+    <ListView
+        android:id="@+id/listViewQuestions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.45" >
+
+    </ListView>
+    
+
+    <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"> 
+
+    	<Button
+    	    android:id="@+id/buttonSendSurvey"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:background="#3C88FC"
+      	    android:text="@string/ButtonSendSurvey"
+    	    android:textAlignment="center"
+    	    android:textColor="#ffffff"
+    	    android:textStyle="bold" />
+    
+ 	</LinearLayout>
+
+
+ </LinearLayout>

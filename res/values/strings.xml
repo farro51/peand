@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pony Express</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="server_ip_address">192.168.1.139</string>
+
+    <!-- Strings related to login -->
+    <string name="register_title">Register</string>
+  
+    <string name="login_title">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="email_hint">email</string>
+    <string name="password_hint">Password</string>
+    <string name="firstname_hint">Firstname</string>
+    <string name="lastname_hint">Lastname</string>
+    <string name="verify_password_hint">Verify your password</string>
+    <string name="register_button_text">Register</string>
+    <string name="login_link_register">Already registred. Login Me!</string>
+    <string name="external_dir">GetSignature</string>
+
+    <!-- Lista de titulos de navegacion -->
+    <string-array name="nav_options">
+        <item>Profile</item>
+        <item>Request List</item>
+        <item>Map</item>
+        <item>Help</item>
+        <item>Settings</item>
+        <item>Log Out</item>
+    </string-array>
+    <!-- Lista de iconos de navegacion -->
+    <array name="navigation_iconos">
+        <item>@drawable/ic_action_user</item>
+        <item>@drawable/ic_action_event</item>
+        <item>@drawable/ic_action_place</item>
+        <item>@drawable/ic_action_star</item>
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_action_share</item>
+    </array>
+
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_report_problem">ReportProblemActivity</string>
+    <string name="title_activity_pick_up">PickUpActivity</string>
+    <string name="insertCode">Insert Code</string>
+    <string name="title_activity_survey">SurveyActivity</string>
+    <string name="title_activity_rating">RatingActivity</string>
+    <string name="ButtonSendSurvey">Send Survey</string>
+    <string name="title_activity_questions">QuestionsActivity</string>
+    <string name="title_activity_qlist">QlistActivity</string>
+    
+	<string name="Code_hint">Code</string>    
+	<string name="Send_code">Send</string>    
+
+</resources>
